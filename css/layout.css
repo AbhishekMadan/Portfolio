@@ -18,9 +18,29 @@
 
 body { background: #0f0f0f; }
 
+.black {
+    color: #0F0F0F;
+}
+
+.add-skill {
+    padding: 2px 10px;
+    margin: 2px 5px;
+    border: 1px solid #8B9798;
+    border-radius: 5px;
+    box-shadow: #6E7881 1px 1px 0px;
+}
+
+.add-skill:hover {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+}
+
+
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
+
 
 header {
    position: relative;
@@ -297,7 +317,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 15px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -318,38 +338,43 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 15px;
+   line-height: 15px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.java {
+  	width: 75%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.cpp {
+  	width: 60%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.sql {
+  	width: 70%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+.android {
+    width: 80%;
+    -moz-animation: wordpress 2s ease;
+    -webkit-animation: wordpress 2s ease;
+}
 .css {
-  	width: 90%;
+  	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
+.html {
+  	width: 65%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 65%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
